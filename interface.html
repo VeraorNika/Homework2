@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="DoubleLinkedList.js"></script>
+</head>
+
+<body>
+    <div class="bottoms" id="bottoms">
+        <bottom class="create" id="create" onClick="javascript:create()">Создать список</bottom>
+        <bottom class="remove" id="remove" onClick="javascript:remove()">Удалить список</bottom>
+        <bottom class="addFirst" id="addFirst" onClick="javascript:addfirst()"    >Добавить в начало</bottom>
+        <bottom class="addLast" id="addLast" onClick="javascript:addlast()">Добавить в конец</bottom>
+        <bottom class="deleteHead" id="deleteHead" onClick="javascript:deleteHead()">Удалить с начала</bottom>
+        <bottom class="deleteTail" id="deleteTail" onClick="javascript:deleteTail()">Удалить с конца</bottom>
+        <bottom class="findItem" id="findItem" onClick="javascript:find()">Найти элемент по значению</bottom>
+        <bottom class="reverse" id="reverse" onClick="javascript:reverse()">Перевернуть элементы</bottom>
+        <bottom class="reverse" id="reverse" onClick="javascript:reset()">Сброс значений</bottom>
+    </div>
+    <p id="demo">В консоли при каждом добавлении/удалении/переворачивании будет выводиться  обновленный двусвязный список</p>
+    <div class="container" id="container"></div>
+</body>
+
+</html>
